@@ -1,0 +1,71 @@
+[
+    {
+        "filename": "index.md",
+        "attr": {
+            "data-background": "#000000",
+            "data-state": "state--dark"
+        }
+    },
+    {
+        "filename": "the-grid.html",
+        "attr": {
+            "data-background-image": "img/the-grid.png"
+        }
+    },
+    {
+        "filename": "the-grid-video.html",
+        "attr": {
+            "data-state": "state--dark",
+            "data-background": "#000000"
+        }
+    },
+    {
+        "filename": "remove-the-humans.html",
+        "attr": {
+            "data-state": "state--dark"
+        }
+    },
+    {
+        "filename": "obey-skynet.html",
+        "attr": {
+            "class": "slide-canvas",
+            "data-background-image": "img/obey-skynet.jpg"
+        }
+    },
+    {
+        "filename": "out-of-a-job.html",
+        "attr": {
+            "data-state": "state--dark"
+        }
+    },
+    {
+        "filename": "pull-it-off.html",
+        "attr": {
+            "data-state": "state--dark"
+        }
+    },
+    {
+        "filename": "watson.html",
+        "attr": {
+            "data-background-image": "img/ibm-watson.jpg"
+        }
+    },
+    {
+        "filename": "ibm-welcome.html",
+        "attr": {
+            "data-state": "state--dark"
+        }
+    },
+    {
+        "filename": "were-screwed.html",
+        "attr": {
+            "data-state": "state--dark"
+        }
+    },
+    {
+        "filename": "or-are-we.html",
+        "attr": {
+            "data-state": "state--dark"
+        }
+    }
+]
