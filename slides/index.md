@@ -1,4 +1,4 @@
-<img src="img/hal.svg" alt="HAL" class="hal">
+<img src="slides/images/hal.svg" alt="HAL" class="hal">
 <!-- Generator: Adobe Illustrator 18.1.0, SVG Export Plug-In  -->
 <svg version="1.1"
    xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"

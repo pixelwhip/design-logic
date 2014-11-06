@@ -9,7 +9,7 @@
     {
         "filename": "the-grid.html",
         "attr": {
-            "data-background-image": "img/the-grid.png"
+            "data-background-image": "slides/images/the-grid.png"
         }
     },
     {
@@ -29,7 +29,7 @@
         "filename": "obey-skynet.html",
         "attr": {
             "class": "slide-canvas",
-            "data-background-image": "img/obey-skynet.jpg"
+            "data-background-image": "slides/images/obey-skynet.jpg"
         }
     },
     {
@@ -47,7 +47,7 @@
     {
         "filename": "watson.html",
         "attr": {
-            "data-background-image": "img/ibm-watson.jpg"
+            "data-background-image": "slides/images/ibm-watson.jpg"
         }
     },
     {
