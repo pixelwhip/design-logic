@@ -1,0 +1,21 @@
+.selectors {
+  display: flex;
+  align-items: center;
+
+  .selectors-type,
+  .selectors-list {
+    display: flex-item;
+    flex-grow: 1;
+  }
+
+  .selectors-list {
+    list-style-type: none;
+    border-left: 1px solid #ccc;
+    padding-left: 1em;
+
+    > li {
+      margin-bottom: .5em;
+      font-family: monospace;
+    }
+  }
+}

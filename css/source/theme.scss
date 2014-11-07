@@ -312,6 +312,7 @@ $selectionBackgroundColor: $magenta;
 
 .reveal section {
 
+@import "partials/selectors";
  p {
   font-weight: 300;
  }
@@ -422,7 +423,7 @@ img {
   margin-right: auto;
   margin-left: auto;
   font-size: 18px;
-  max-width: 33em;
+  max-width: 35em;
   border-left: 1px solid #ccc;
   border-right: 1px solid #ccc;
   padding-top: 1.5em;
@@ -434,21 +435,10 @@ img {
 }
 
 .article-paragraph {
-  font-size: 18px;
+  font-size: 24px;
   margin-bottom: 24px;
   line-height: 1.4em;
   font-weight: 400;
-}
-
-.quote,
-.quote-author {
-  box-shadow: none;
-  color: $blue;
-}
-
-.quote-author {
-  text-align: right;
-  margin-top: 1.2em;
 }
 
 .article-pullquote {
@@ -467,6 +457,39 @@ img {
   float: left;
   transition: all 1s ease;
   letter-spacing: .01em;
+}
+
+.article-link {
+  color: hotPink;
+  font-weight: bold;
+  text-decoration: underline;
+
+  &.is-visited {
+    opacity: .6;
+  }
+
+  &[target="_blank"] {
+    &:after {
+      content: " ICON";
+    }
+  }
+
+  &[href$=".pdf"] {
+    &:before {
+      content: "ICON ";
+    }
+  }
+}
+
+.quote,
+.quote-author {
+  box-shadow: none;
+  color: $blue;
+}
+
+.quote-author {
+  text-align: right;
+  margin-top: 1.2em;
 }
 
 //

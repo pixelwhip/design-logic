@@ -7,65 +7,48 @@
         }
     },
     {
-        "filename": "the-grid.html",
+        "filename": "design-logic.html",
         "attr": {
-            "data-background-image": "slides/images/the-grid.png"
+            "data-state": "state--pattern"
         }
     },
     {
-        "filename": "the-grid-video.html",
+        "filename": "design-logic-example.html",
         "attr": {
-            "data-state": "state--dark",
-            "data-background": "#000000"
+            "data-background": ""
         }
     },
     {
-        "filename": "remove-the-humans.html",
+        "filename": "style-by.html",
+        "attr": {}
+    },
+    {
+        "filename": "style-by-attributes.html",
         "attr": {
-            "data-state": "state--dark"
         }
     },
     {
-        "filename": "obey-skynet.html",
+        "filename": "style-by-state.html",
         "attr": {
-            "class": "slide-canvas",
-            "data-background-image": "slides/images/obey-skynet.jpg"
         }
     },
     {
-        "filename": "out-of-a-job.html",
+        "filename": "style-by-ancestor.html",
+        "attr": {}
+    },
+    {
+        "filename": "style-by-sibling.html",
         "attr": {
-            "data-state": "state--dark"
         }
     },
     {
-        "filename": "pull-it-off.html",
+        "filename": "style-by-source-order.html",
         "attr": {
-            "data-state": "state--dark"
         }
     },
     {
-        "filename": "watson.html",
+        "filename": "style-by-query.html",
         "attr": {
-            "data-background-image": "slides/images/ibm-watson.jpg"
-        }
-    },
-    {
-        "filename": "ibm-welcome.html",
-        "attr": {
-            "data-state": "state--dark"
-        }
-    },
-    {
-        "filename": "were-screwed.html",
-        "attr": {
-            "data-state": "state--dark"
-        }
-    },
-    {
-        "filename": "or-are-we.html",
-        "attr": {
-            "data-state": "state--dark"
         }
     }
 ]
