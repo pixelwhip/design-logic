@@ -2,70 +2,157 @@
     {
         "filename": "index.md",
         "attr": {
-            "data-background": "#000000",
             "data-state": "state--dark"
         }
     },
     {
-        "filename": "the-grid.html",
-        "attr": {
-            "data-background-image": "slides/images/the-grid.png"
-        }
-    },
-    {
-        "filename": "the-grid-video.html",
-        "attr": {
-            "data-state": "state--dark",
-            "data-background": "#000000"
-        }
-    },
-    {
-        "filename": "remove-the-humans.html",
+        "filename": "aten.html",
         "attr": {
             "data-state": "state--dark"
         }
     },
     {
-        "filename": "obey-skynet.html",
+        "filename": "clients.html",
         "attr": {
-            "class": "slide-canvas",
-            "data-background-image": "slides/images/obey-skynet.jpg"
+            "data-background-image": "slides/images/bg-clients.png"
         }
     },
     {
-        "filename": "out-of-a-job.html",
+        "filename": "design-logic.html",
+        "attr": {
+            "data-state": "state--pattern"
+        }
+    },
+    {
+        "filename": "design-logic-example.html",
+        "attr": {
+            "data-background": ""
+        }
+    },
+    {
+        "filename": "style-by.html",
+        "attr": {}
+    },
+    {
+        "filename": "style-by-attributes.html",
+        "attr": {}
+    },
+    {
+        "filename": "style-by-state.html",
+        "attr": {}
+    },
+    {
+        "filename": "style-by-ancestor.html",
+        "attr": {}
+    },
+    {
+        "filename": "style-by-sibling.html",
+        "attr": {}
+    },
+    "profile-padded.html",
+    "profile-no-image.html",
+    {
+        "filename": "style-by-source-order.html",
+        "attr": {}
+    },
+    "wri-featured.html",
+    {
+        "filename": "style-by-query.html",
+        "attr": {}
+    },
+    {
+        "filename": "pure-css.html",
+        "attr": {
+            "data-background": ""
+        }
+    },
+    {
+        "filename": "css-cant-alter-markup.html",
+        "attr": {
+            "data-background": ""
+        }
+    },
+    {
+        "filename": "css-needs-help.html",
+        "attr": {
+            "data-background": ""
+        }
+    },
+    {
+        "filename": "server-client.html",
+        "attr": {
+            "data-background": ""
+        }
+    },
+    {
+        "filename": "flow-chart.html",
+        "attr": {
+            "data-background": ""
+        }
+    },
+    {
+        "filename": "server-knows-content.html",
+        "attr": {
+            "data-state": "state--pattern"
+        }
+    },
+    "wri-triptych.html",
+    "wri-triptych-broken.html",
+    "wri-triptych-fixed.html",
+    {
+        "filename": "server-knows-intentions.html",
+        "attr": {
+            "data-state": "state--pattern"
+        }
+    },
+    "focal-point.html",
+    {
+        "filename": "client-knows-state.html",
+        "attr": {
+            "data-state": "state--pattern"
+        }
+    },
+    {
+        "filename": "oa-single.html",
         "attr": {
             "data-state": "state--dark"
         }
     },
     {
-        "filename": "pull-it-off.html",
+        "filename": "oa-mobile.html",
         "attr": {
             "data-state": "state--dark"
         }
     },
     {
-        "filename": "watson.html",
-        "attr": {
-            "data-background-image": "slides/images/ibm-watson.jpg"
-        }
-    },
-    {
-        "filename": "ibm-welcome.html",
+        "filename": "oa-stacked.html",
         "attr": {
             "data-state": "state--dark"
         }
     },
     {
-        "filename": "were-screwed.html",
+        "filename": "oa-video.html",
         "attr": {
             "data-state": "state--dark"
         }
     },
+    "modernizr.html",
     {
-        "filename": "or-are-we.html",
+        "filename": "eq-js.html",
+        "attr": {}
+    },
+    {
+        "filename": "enquire.html",
         "attr": {
-            "data-state": "state--dark"
+            "data-background-image": "slides/images/enquire-logo.png"
         }
-    }
+    },
+    {
+        "filename": "resilient-design-systems.html",
+        "attr": {
+            "data-background": ""
+        }
+    },
+    "burden-of-style.html",
+    "thanks.html"
 ]

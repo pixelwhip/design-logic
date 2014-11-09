@@ -54,7 +54,7 @@ body {
   text-shadow: 0px 0px 6px rgba(0, 0, 0, 0.2); }
 
 .reveal h1 {
-  text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.2), 0 5px 10px rgba(0, 0, 0, 0.25), 0 20px 20px rgba(0, 0, 0, 0.15); }
+  text-shadow: none; }
 
 /*********************************************
  * LINKS
@@ -213,7 +213,7 @@ body {
   text-shadow: none; }
 
 .reveal h1 {
-  text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.2), 0 5px 10px rgba(0, 0, 0, 0.25), 0 20px 20px rgba(0, 0, 0, 0.15); }
+  text-shadow: none; }
 
 /*********************************************
  * LINKS
@@ -361,7 +361,7 @@ body {
     text-transform: uppercase;
     text-shadow: none; }
   .state--blue .reveal h1 {
-    text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.2), 0 5px 10px rgba(0, 0, 0, 0.25), 0 20px 20px rgba(0, 0, 0, 0.15); }
+    text-shadow: none; }
   .state--blue .reveal a:not(.image) {
     color: #fcc318;
     text-decoration: none;
@@ -478,7 +478,7 @@ body {
     text-transform: uppercase;
     text-shadow: none; }
   .state--dark .reveal h1 {
-    text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.2), 0 5px 10px rgba(0, 0, 0, 0.25), 0 20px 20px rgba(0, 0, 0, 0.15); }
+    text-shadow: none; }
   .state--dark .reveal a:not(.image) {
     color: #fcc318;
     text-decoration: none;
@@ -599,7 +599,7 @@ body {
     text-transform: uppercase;
     text-shadow: none; }
   .state--luminosity .reveal h1 {
-    text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.2), 0 5px 10px rgba(0, 0, 0, 0.25), 0 20px 20px rgba(0, 0, 0, 0.15); }
+    text-shadow: none; }
   .state--luminosity .reveal a:not(.image) {
     color: #fcc318;
     text-decoration: none;
@@ -675,6 +675,20 @@ body {
     left: 0;
     right: 0; }
 
+.reveal section .selectors {
+  display: flex;
+  align-items: center; }
+  .reveal section .selectors .selectors-type,
+  .reveal section .selectors .selectors-list {
+    display: flex-item;
+    flex-grow: 1; }
+  .reveal section .selectors .selectors-list {
+    list-style-type: none;
+    border-left: 1px solid #ccc;
+    padding-left: 1em; }
+    .reveal section .selectors .selectors-list > li {
+      margin-bottom: .5em;
+      font-family: monospace; }
 .reveal section p {
   font-weight: 300; }
 .reveal section .credit {
@@ -707,6 +721,14 @@ body {
   margin-bottom: 2em; }
 .reveal section .logo--small {
   height: 200px; }
+.reveal section .l--split {
+  display: flex; }
+  .reveal section .l--split > .l-item {
+    flex-grow: 1;
+    padding-left: .5em;
+    padding-right: .5em; }
+.reveal section .bg-code {
+  background-color: white; }
 .reveal section .profile-header {
   float: left;
   width: 460px;
@@ -732,25 +754,18 @@ body {
   margin-right: auto;
   margin-left: auto;
   font-size: 18px;
-  max-width: 33em;
-  border-left: 1px solid #ccc;
-  border-right: 1px solid #ccc;
+  max-width: 32em;
   padding-top: 1.5em;
   padding-bottom: 1.5em; }
 .reveal section .article {
   text-align: left; }
 .reveal section .article-paragraph {
-  font-size: 18px;
+  font-size: 24px;
   margin-bottom: 24px;
   line-height: 1.4em;
-  font-weight: 400; }
-.reveal section .quote,
-.reveal section .quote-author {
-  box-shadow: none;
-  color: #0D6B9C; }
-.reveal section .quote-author {
-  text-align: right;
-  margin-top: 1.2em; }
+  font-weight: 400;
+  letter-spacing: .00em;
+  word-spacing: .05em; }
 .reveal section .article-pullquote {
   font-size: 22px;
   line-height: 1.2em;
@@ -767,6 +782,38 @@ body {
   float: left;
   transition: all 1s ease;
   letter-spacing: .01em; }
+.reveal section .article-link {
+  color: hotPink;
+  font-weight: bold;
+  text-decoration: underline; }
+.reveal section #article-1.visible ~ .article-link[target="_blank"]:after,
+.reveal section #article-2.visible ~ .article-link[href$=".pdf"]:before {
+  content: "";
+  display: inline-block;
+  height: 36px;
+  width: 36px;
+  background-repeat: no-repeat;
+  vertical-align: -25%;
+  opacity: .6; }
+.reveal section #article-1.visible ~ .article-link[target="_blank"] {
+  padding-right: .5em; }
+  .reveal section #article-1.visible ~ .article-link[target="_blank"]:after {
+    background-image: url("../slides/images/icon-blank.svg");
+    margin-right: -.5em; }
+.reveal section #article-2.visible ~ .article-link[href$=".pdf"] {
+  padding-left: .5em; }
+  .reveal section #article-2.visible ~ .article-link[href$=".pdf"]:before {
+    background-image: url("../slides/images/icon-doc.svg");
+    margin-left: -.5em; }
+.reveal section #article-3.visible ~ .article-link.is-visited {
+  opacity: .6; }
+.reveal section .quote,
+.reveal section .quote-author {
+  box-shadow: none;
+  color: #0D6B9C; }
+.reveal section .quote-author {
+  text-align: right;
+  margin-top: 1.2em; }
 .reveal section .clearfix:before, .reveal section .clearfix:after {
   content: " ";
   /* 1 */
